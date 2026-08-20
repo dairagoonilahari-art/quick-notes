@@ -192,7 +192,7 @@ export default function Home() {
   };
 
   return (
-    <main className={darkMode ? "dark-mode" : ""}>
+    <main className={darkMode ? "dark-mode" : "light-mode"}>
 
       <Toast
         message={toast}

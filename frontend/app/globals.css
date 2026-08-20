@@ -1402,3 +1402,46 @@ button:disabled {
     max-width: 220px;
   }
 }
+/* =========================
+   EXPLICIT LIGHT MODE
+========================= */
+
+.light-mode {
+  background: #eef3f5;
+  color: #172b3a;
+  min-height: 100vh;
+}
+
+.light-mode form,
+.light-mode .search-box,
+.light-mode .note-card,
+.light-mode .empty-state {
+  background: #ffffff;
+  color: #172b3a;
+}
+
+.light-mode input,
+.light-mode textarea,
+.light-mode select {
+  background: #ffffff;
+  color: #172b3a;
+  border-color: #cbd8de;
+}
+
+.light-mode .notes-header h2 {
+  color: #172b3a;
+}
+
+.light-mode .note-card h3 {
+  color: #123b56;
+}
+
+.light-mode .note-card p,
+.light-mode .empty-state p {
+  color: #567080;
+}
+
+.light-mode .footer {
+  color: #71838c;
+  border-top-color: #d5e0e4;
+}
